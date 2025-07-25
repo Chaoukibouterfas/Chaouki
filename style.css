@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1;
+    color: #4e342e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc80;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffe0b2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #ffcc80;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
