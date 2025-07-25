@@ -1,35 +1,56 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff8e1;
-    color: #4e342e;
+    background: url('https://images.unsplash.com/photo-1603357463726-0e1b7c0891d3') no-repeat center center fixed;
+    background-size: cover;
+    color: #3e2723;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffcc80;
+    background-color: rgba(255, 204, 128, 0.9);
     text-align: center;
     padding: 20px;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #4e342e;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main {
     padding: 20px;
+    background-color: rgba(255, 255, 240, 0.8);
+    margin: 20px;
+    border-radius: 10px;
 }
 
 .product {
     margin-bottom: 20px;
-    padding: 10px;
-    background-color: #ffe0b2;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    background-color: #fff3e0;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #ffcc80;
+    background-color: rgba(255, 204, 128, 0.9);
     text-align: center;
     padding: 10px;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
 }
